@@ -2,10 +2,10 @@ import React from 'react'
 import './Taskbar.css'
 import taskbar from '../../assets/icons.PNG'
 
-function Taskbar() {
+const Taskbar = (props) => {
     return (
         <div className="taskbar">
-            <img src={taskbar} alt="taskbar"/>
+            <img onClick={props.onToggle} src={taskbar} alt="taskbar"/>
         </div>
     )
 }
