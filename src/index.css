@@ -10,6 +10,7 @@ body {
   background-image: url('./assets/bg.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 code {

@@ -1,0 +1,10 @@
+.dateRight{
+    position: absolute;
+    right: 0;
+}
+
+.date{
+    width: 85%;
+    /* margin: 8px 0; */
+    margin-top: 4px;
+}
