@@ -1,12 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 import Taskbar from "../components/Taskbar/Taskbar";
 import StartMenu from "../components/StartMenu/StartMenu";
 
 function App() {
+
+  const [clsName, setClsName] = useState(true)
+
+  const toggleStartMenu = () => {
+    setClsName(clsName => !clsName)
+  }
+
   return (
     <div className="App">
-      <Taskbar />
-      <StartMenu />
+      <Taskbar onToggle={toggleStartMenu} />
+      <StartMenu name={clsName ? 'startmenu' : 'startmenu grow'} />
     </div>
   );
 }

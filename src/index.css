@@ -22,3 +22,7 @@ code {
     background-size: 1100px;
   }
 }
+
+::-webkit-scrollbar{
+  display: none;
+}

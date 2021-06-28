@@ -2,9 +2,9 @@ import React from 'react'
 import './StartMenu.css'
 import startMenu from '../../assets/startmenu.png'
 
-function StartMenu() {
+const StartMenu = (props)  => {
     return (
-        <div className="startmenu">
+        <div className={props.name}>
             <img className="imgStart" src={startMenu} alt="StartMenu" />
         </div>
     )

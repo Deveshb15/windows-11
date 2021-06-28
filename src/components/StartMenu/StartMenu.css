@@ -1,8 +1,12 @@
 .startmenu{
     position: absolute;
-    bottom: 45px;
+    bottom: -650px;
     width: 100%;
-    text-align: center;
+    text-align: center; 
+    transition: all 0.3s ease-in; 
+}
+.startmenu.grow{
+    bottom: 45px !important;
     transition: all 0.3s ease-in; 
 }
 
