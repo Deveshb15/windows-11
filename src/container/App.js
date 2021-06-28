@@ -1,10 +1,10 @@
 import React from "react";
-
+import Taskbar from "../components/Taskbar/Taskbar";
 
 function App() {
   return (
     <div className="App">
-     <h1>hello</h1>
+      <Taskbar />
     </div>
   );
 }
