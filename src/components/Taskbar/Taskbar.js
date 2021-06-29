@@ -1,6 +1,6 @@
 import React from 'react'
 import './Taskbar.css'
-import Date from "./Date/Date";
+import Clock from "./Clock/Clock";
 
 import start from '../../assets/logo/start.png' 
 import edge from '../../assets/logo/edge.png'
@@ -15,10 +15,10 @@ const Taskbar = (props) => {
                 <img onClick={props.onToggleStart} src={start} alt="start" />
                 <img src={edge} alt="edge" />
                 <img src={spotify} alt="spotify" />
-                <img src={file} alt="file" />
+                <img onClick={props.onToggleFile} src={file} alt="file" />
                 <img src={vscode} alt="vscode" />
             </div>
-            <Date />
+            <Clock />
         </div>
     )
 }
