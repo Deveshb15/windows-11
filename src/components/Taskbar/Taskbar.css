@@ -1,8 +1,14 @@
 .taskbar{
     width: 100%;
+    height: 45px;
     position: absolute;
     bottom: 0;
     display: flex;
     justify-content: center;
     background-color: #f3f3f3;
+}
+
+.taskbar__logos > img{
+    width: auto;
+    height: 30px;
 }

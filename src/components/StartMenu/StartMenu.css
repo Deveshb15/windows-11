@@ -1,4 +1,5 @@
 .startmenu{
+    z-index: -1;
     position: absolute;
     bottom: -650px;
     width: 100%;
@@ -6,7 +7,7 @@
     transition: all 0.3s ease-in; 
 }
 .startmenu.grow{
-    bottom: 45px !important;
+    bottom: 50px !important;
     transition: all 0.3s ease-in; 
 }
 

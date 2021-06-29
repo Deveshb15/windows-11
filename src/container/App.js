@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Taskbar onToggle={toggleStartMenu} />
+      <Taskbar onToggleStart={toggleStartMenu} />
       <StartMenu name={clsName ? 'startmenu' : 'startmenu grow'} />
     </div>
   );
