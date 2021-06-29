@@ -12,7 +12,7 @@ const Taskbar = (props) => {
     return (
         <div className="taskbar">
             <div className="taskbar__logos">
-                <img src={start} alt="start" />
+                <img onClick={props.onToggleStart} src={start} alt="start" />
                 <img src={edge} alt="edge" />
                 <img src={spotify} alt="spotify" />
                 <img src={file} alt="file" />
