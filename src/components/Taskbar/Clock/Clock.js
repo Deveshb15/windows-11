@@ -20,7 +20,7 @@ const Clock = (props) => {
 
     return (
         <div className="dateRight">
-            <p className="date">{timer.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric' })}</p>
+            <p>{timer.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric' })}</p>
             <p>{`${timer.getMonth()+1}/${timer.getDate()}/${timer.getFullYear()}`}</p>
         </div>
     )
