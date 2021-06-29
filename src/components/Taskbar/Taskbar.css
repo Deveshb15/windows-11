@@ -1,8 +1,29 @@
 .taskbar{
     width: 100%;
+    height: 45px;
     position: absolute;
     bottom: 0;
     display: flex;
     justify-content: center;
     background-color: #f3f3f3;
+}
+
+.taskbar__logos > img{
+    width: auto;
+    height: 35px;
+    margin: 4px 12px;
+    border-radius: 6px;
+}
+
+.taskbar__logos > img:hover{
+    position: relative;
+    bottom: 10px;
+    transform: scale(1.8);
+
+}
+
+.taskbar__logos > img:active{
+    position: relative;
+    bottom: 10px;
+    transform: scale(1.2);
 }
