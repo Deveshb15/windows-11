@@ -1,5 +1,5 @@
 .fileExplorer{
-    /* z-index: -2; */
+    z-index: -2;
     position: absolute;
     bottom: -650px;
     width: 100%;
