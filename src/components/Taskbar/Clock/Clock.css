@@ -9,6 +9,18 @@
     flex-direction: row;
 }
 
+.batteryDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
 .batteryDisplay > img{
-    margin-top: 6px;
+    width: 70%;
+}
+
+.batteryDisplay:hover{
+    background-color: #ccc;
 }
