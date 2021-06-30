@@ -5,4 +5,22 @@
     text-align: center;
     line-height: 0.5;
     margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.batteryDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.batteryDisplay > img{
+    width: 70%;
+}
+
+.batteryDisplay:hover{
+    background-color: #ccc;
 }
