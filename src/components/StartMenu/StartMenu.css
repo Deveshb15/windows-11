@@ -49,7 +49,8 @@
 }
 
 .icons__start > *:hover{
-    background-color: #ccc;
+    /* background-color: #ccc; */
+    transform: scale(1.2);
 }
 
 
