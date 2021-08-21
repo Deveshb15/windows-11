@@ -1,6 +1,5 @@
 import React from 'react'
 import './StartMenu.css'
-import startMenu from '../../assets/startmenu.png'
 
 import fileExplorer from '../../assets/logo/file.png'
 import spotify from '../../assets/logo/spotify.png'
